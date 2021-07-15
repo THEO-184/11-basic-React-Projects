@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: rgb(212, 237, 245);
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 1rem;
+}
+
+/* .social-icons {
+	padding: 0 0.5rem;
+} */
+
+.fixed-nav {
+	background-color: #f4f4f4;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+ul li span,
+ul li {
+	padding: 0 0.5rem;
+}
